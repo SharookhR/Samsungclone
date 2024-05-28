@@ -1,0 +1,348 @@
+@font-face {
+    font-family: sss1;
+    src: url(font/samsungsharpsans-bold_v2.woff2);
+}
+@font-face {
+    font-family: sss2;
+    src: url(font/samsungsharpsans-medium_v2.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.first{
+    overflow: hidden;
+    padding-right: 1000px;
+    
+}
+.first img{
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    right: 200px;
+    bottom: 76px;
+  
+}
+.header{
+    height: 76px;
+display: block;
+background-color: whitesmoke;
+
+}
+.header a{
+    width: 140px;
+    height: 41px;
+    position: relative;
+    top: 40px;
+    left: 29px;
+}
+#logosam{
+    width: 140px;
+    height: 23px;
+}
+#menu{
+    display: block;
+    position: fixed;
+    right: 43px;
+    top: 30px;
+    width: 40.8px;
+    height: 40.8px;
+    z-index: 1;
+}
+#menu:hover{
+    border-radius: 40px;
+    background-color: grey;
+    overflow: hidden;  
+}
+#text1{
+    position: absolute;
+    right: 490px;
+    top: 235px;
+    font-size: 70px;
+    font-family: sss1;
+    font-weight: 600;
+}
+.midsec{
+    width: auto;
+    display: flex;
+    position: relative;
+    bottom: 140px;
+    height: 430px;
+
+}
+.midimg1 img{
+    width: 100%
+}
+.midimg1 p{
+    font-size: 30px;
+    position: relative; 
+    bottom: 402px;
+    left: 30px;
+    font-weight: 600;
+    color: #fff;
+    font-family: sss1;
+
+}
+
+
+.midimg2 img{
+    width: 100%;
+}
+.midimg2 p{
+    font-size: 30px;
+    position: absolute; 
+    bottom: 325px;
+    right: 30px;
+    font-weight: 600;
+    color: #fff;
+    text-align: right;
+    font-family: sss1;
+
+    
+}
+#head1{
+    position: relative;
+    bottom: 100px;
+    left: 3 0px;
+    width: 500px;
+    font-family: sss1;
+    color: #333;
+
+
+}
+.devices{
+    position: relative;
+    bottom: 77px;
+    overflow: hidden;
+}
+.row1{
+    background-color: whitesmoke;
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+
+}
+.row2{
+    
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+.col1{
+}
+.col2{
+    
+ position: relative;
+  right: 50px;
+  width: 379px;
+    object-fit: cover;
+
+  }
+.col3{
+    
+    position: relative;
+    right: 49px;
+    width: 379px;
+    object-fit: cover;
+    
+    
+}
+.col4{
+    position: relative;
+    right: 50px;
+    width: 379px;
+    object-fit: cover;
+}
+.devices img:hover{
+    cursor: pointer;
+    background-color: hsl(272, 100%, 50%);
+    color: white;
+   
+    
+}
+.devicetext1 {
+
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 570px;
+    font-size: 23px;
+    color: #333;
+    font-family: sss1;
+
+    
+   
+}
+
+.devicetext2 {
+
+    display: flex;
+    justify-content: space-between;
+    padding-left: 33px;
+    padding-right: 120px;
+    position: relative;
+    bottom: 118px;
+    font-size: 23px;
+    color: #333;
+    font-family: sss1;
+
+}
+hr{
+    position: relative;
+    bottom: 125px;
+}
+.footer {
+    padding: 0 30px;
+    position: relative;
+    bottom: 100px;  
+    font-family: sss2;
+
+    
+
+}
+.share {
+    display: flex;
+    justify-content: space-between;
+    width: 195px;
+    
+
+
+}
+.share img{
+    width: 15px;
+    height: 20px;
+
+}
+.share p{
+    font-size: 18px;
+    color: gray;
+}
+.cp1{
+    display:flex;
+    gap: 100px;
+    
+}
+.cp1 p{
+    font-size: 12px;
+    color: grey;
+    
+}
+.logofoot{
+    background-size: 86px auto;
+    width: 87px;
+    height: 15px;
+
+
+}
+.copyright{
+    display: flex;
+}
+.cpy1{
+    margin-left: 20px;
+    font-size: 12px;
+    color: grey;
+    font-weight: lighter;
+    font-family: sss2;
+   
+
+
+
+}
+.cpy1 a{
+    
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+}
+
+.utility {
+    float: right;
+    position: relative;
+    bottom: 160px;
+
+    
+}
+.utility button{
+    width: auto;
+    box-sizing: border-box;
+    font-size: 12px;
+
+}
+.utility button:first-child{
+    color: #fff01f;
+    background-color: #000;
+    border-color: #fff01f;
+    margin-right: 5px;
+    border-width: 2px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    
+}
+.utility button:nth-child(2){
+    color: #666;
+    background-color: #fff;
+   
+    margin-right: 5px;
+    border-width: 1px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    
+}
+.utility button:nth-child(3){
+    color: #666;
+    background-color: #fff;
+   
+    margin-right: 5px;
+    border-width: 1px;
+    width: 210px;
+    height: 30px;
+    text-align: center;
+    
+}
+.utility button:nth-child(4){
+    color: #666;
+    background-color: #fff;
+   
+    margin-right: 5px;
+    border-width: 1px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    
+}
+.utility button:nth-child(5){
+    color: #666;
+    background-color: #fff;
+   
+    margin-right: 5px;
+    border-width: 1px;
+    width: 190px;
+    height: 30px;
+    text-align: center;
+    
+}
+.footer p:nth-child(9){
+    float:right;
+    position: relative;
+    left:505px;
+    bottom: 10px;
+
+    font-size: 14px;
+}
+.footer p:last-child{
+    float:right;
+    position: relative;
+    left:704px;
+    bottom: 10px;
+    font-size: 14px;
+}
+.net img{
+    
+   display: inline-block;
+  
+}
